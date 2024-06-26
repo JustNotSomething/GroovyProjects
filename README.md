@@ -47,10 +47,11 @@ VALUES
 ```
 
 7. Run Groovy application
-8.0.  If you have problems with react scripts, run the following commands 
 ```bash
     npm cache clean --force
     npm rebuild
     npm install
 ```
 8.1. Run React application ((in terminal, open the folder where the react application is located and run ```npm start```)
+
+8.2.  If you have problems with react scripts, run the following commands 
