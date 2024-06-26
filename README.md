@@ -3,6 +3,7 @@ The idea of the project was to develop blog-like application with CRUD operation
 This project consists of 2 parts Backend(Groovy, Spring) and Frontend(React.js). It also uses postgreSQL as db.
 
 ## How to run
+0. Clone both repositories GroovyProjects and blog-app-web
 1. Install / Open postgres (pgAdmin).
 2. Create db where data will be stored.
 3. Open Groovy (Spring) project.
@@ -46,4 +47,10 @@ VALUES
 ```
 
 7. Run Groovy application
-8. Run React application ((in terminal, open the folder where the react application is located and run ```npm start```)
+8.0.  If you have problems with react scripts, run the following commands 
+```bash
+    npm cache clean --force
+    npm rebuild
+    npm install
+```
+8.1. Run React application ((in terminal, open the folder where the react application is located and run ```npm start```)
